@@ -1,0 +1,213 @@
+.nav-ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.App {
+  text-align: center;
+}
+
+.nav-ul li a {
+  padding: 5px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-ul {
+  padding: 5px;
+  margin: 0;
+  background-color: skyblue;
+}
+
+.Footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: skyblue;
+}
+
+.register {
+  margin-left: 20%;
+  cursor: pointer;
+}
+
+.inputBox {
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid skyblue;
+}
+
+.appButton {
+  margin-right: 20px;
+  padding: 10px;
+  width: 100px;
+  border: 1px solid skyblue;
+  background-color: skyblue;
+  cursor: pointer;
+}
+
+media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.w-60 {
+  width: 60%;
+}
+.w-40 {
+  width: 40%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+.p-5 {
+  padding: 5%;
+}
+
+.p-25-l-r {
+  padding-right: 25%;
+  padding-left: 25%;
+}
+
+.justify-center-space-between {
+  justify-content: space-between;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #c6c4c4;
+}
+
+.border-bottom-select {
+  border-bottom: 2.5px solid #c82f2f;
+}
+
+.round-box {
+  border: 1px solid #e2dada;
+  margin-top: 40px;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+}
+
+.f-s-xxl {
+  font-size: xx-large;
+}
+
+.vh {
+  height: 100vh;
+}
+.f-w-500 {
+  font-weight: 500;
+}
+
+.color-mh {
+  color: #c82f2f;
+}
+.color-red {
+  color: #f73838;
+}
+.color-grey {
+  color: #887e7e;
+}
+.p-hor-15 {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+input {
+  width: 100%;
+  padding: 20px 0px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #e2dada;
+  color: rgb(240, 136, 8);
+  font-weight: 500;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  padding: 15px 60px;
+  background-color: transparent;
+  border: 1px solid #887e7e;
+  margin: 50px;
+  border-radius: 100px;
+}
+
+.show {
+  position: absolute;
+  right: 5px;
+  top: 20px;
+}
+
+.pos-abs {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #c6c4c4;
+}
+
+.pos-rel {
+  position: relative;
+}
+.none {
+  display: none;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.m-top-25px {
+  margin-top: 25px;
+}
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0px 3px rgb(226, 223, 223);
+  cursor: pointer;
+}
+
+.cursor {
+  cursor: pointer;
+}
